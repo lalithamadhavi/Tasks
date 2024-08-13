@@ -1,0 +1,14 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Submissions</title>
+</head>
+<body>
+    <h1>Submissions</h1>
+    <ul>
+    {% for submission in submissions %}
+        <li>{{ submission.name }} ({{ submission.email }})</li>
+    {% endfor %}
+    </ul>
+</body>
+</html>
