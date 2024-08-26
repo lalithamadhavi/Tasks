@@ -1,3 +1,5 @@
+#!/bin/bash
+
 #Down the running containers (if any)
 docker compose down
 
